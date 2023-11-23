@@ -3,8 +3,10 @@ let newValue = stringValue.padStart(17, "Anil Kumar");
 let ul = document.getElementById("ul");
 let li = document.createElement("li");
 ul.textContent = newValue;
-ul.appendChild("li");
+newValue.appendChild("li");
 
+let fiValue = stringValue.padEnd(6);
+console.log(fiValue)
 
 // let stringValue = "na";
 // console.log(stringValue.repeat(5));
