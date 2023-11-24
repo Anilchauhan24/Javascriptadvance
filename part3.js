@@ -1,12 +1,24 @@
-let stringValue = "Chauhan";
-let newValue = stringValue.padStart(17, "Anil Kumar");
-let ul = document.getElementById("ul");
-let li = document.createElement("li");
-ul.textContent = newValue;
-newValue.appendChild("li");
+let text = "cat,bat,sat,dat,vat,lat";
+let replace = text.replace(/at/g, "nnon ($1)");
 
-let fiValue = stringValue.padEnd(6);
-console.log(fiValue)
+document.write(replace)
+
+
+
+
+
+
+
+
+// let stringValue = "Chauhan";
+// let newValue = stringValue.padStart(17, "Anil Kumar");
+// let ul = document.getElementById("ul");
+// let li = document.createElement("li");
+// ul.textContent = newValue;
+// newValue.appendChild("li");
+
+// let fiValue = stringValue.padEnd(6);
+// console.log(fiValue)
 
 // let stringValue = "na";
 // console.log(stringValue.repeat(5));
