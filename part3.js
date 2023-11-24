@@ -1,14 +1,27 @@
-let text = "cat,bat,sat,dat,vat,lat";
-let replace = text.replace(/at/g, "nnon ($1)");
 
-document.write(replace)
+// function htmlEscape(text) {
+//     return text.replace(/[<>"&"]/g, function (match, pos, originalText) {
+//         switch (match) {
+//             case "<":
+//                 return "&lt;";
+
+//             case ">":
+//                 return "&gt;";
+//             case "&":
+//                 return "&amp;";
+//             case "\"":
+//                 return "&quot;";
+//         }
+//     })
+// }
+
+// console.log(htmlEscape("<p class=\"greeting\">Hello world</p>"));
 
 
+// let text = "cat,bat,sat,dat,vat,lat";
+// let replace = text.replace(/at/g, "nnon ($1)");
 
-
-
-
-
+// document.write(replace)
 
 // let stringValue = "Chauhan";
 // let newValue = stringValue.padStart(17, "Anil Kumar");
