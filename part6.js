@@ -9,7 +9,8 @@ function solution() {
     let z = 4.9;
     let eqnTwo = (2 * (eqnOne) + 3) - z;
 
-    console.log(eqnTwo)//19
+    console.log(eqnTwo)//18.1
+    console.log(Math.round(eqnTwo))//18
 
 }
 solution()
@@ -20,6 +21,7 @@ const eqnOne = p;
 const z = 4.5;
 const eqnTwo = (2 * (eqnOne) + 3) - z;
 
-document.write(eqnTwo)
+document.write(eqnTwo)//18.5
 
-console.log(Math.ceil(eqnTwo))
+console.log(Math.ceil(eqnTwo))//19
+console.log(Math.floor(eqnTwo))//18
